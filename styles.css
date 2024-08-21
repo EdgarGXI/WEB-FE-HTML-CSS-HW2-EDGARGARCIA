@@ -1,0 +1,166 @@
+/* General styles */
+body {
+    font-family: serif, monospace, Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-image: url('img/neigh.jpg');
+    background-size:auto;
+    background-position:bottom;
+    color: #ffffff;
+    padding: 20px;
+    text-align: right;
+}
+
+header img {
+    border-radius: 50%;
+    width: 250px;
+    vertical-align: bottom;
+}
+
+header h1 {
+    text-align: left;
+}
+
+header p {
+    text-align: left;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0 20px;
+    text-align: left;
+}
+
+
+
+
+
+h2 {
+    border-bottom: 6px;
+    color: #ffffff;
+}
+
+#about {
+    background-color: #14213D;
+    color:#ffffff;
+    padding: 20px;
+}
+
+#about img{
+    width:40px;
+    height:40px;
+}
+
+#education {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#education img{
+    width:40px;
+    height:40px;
+}
+
+/* Skills section */
+#skills {
+    background-color: #14213D;
+    padding: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#skills img{
+    width:40px;
+    height:40px;
+}
+
+/* Experience section */
+#experience {
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#experience a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#experience img{
+    width:40px;
+    height:40px;
+}
+/* Books section */
+
+#books img{
+    width:40px;
+    height:40px;
+}
+
+#books {
+    background-color: #14213D;
+    padding: 20px;
+}
+
+#books ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#books li {
+    margin-bottom: 10px;
+}
+
+#books a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#books a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #FCA311;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img{
+    width:48px;
+    height:48px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    
+    header img {
+        width: 100px;
+    }
+}
