@@ -7,25 +7,38 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="contact-page">
-  <form class="contact-form" action="#">
-    <div class="form-group">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+  <div class="contact-content">
+    <div class="contact-image-wrapper">
+      <img src="img/ad.png" alt="Advertisement" class="contact-image">
+      <p class="contact-description">Step into a world where tradition meets innovation. Marlboro has been a symbol of strength, freedom, and authenticity for nearly a century. From the unmistakable taste of Marlboro Red to the smooth refinement of Marlboro Gold, each cigarette is crafted to deliver a smoking experience unlike any other.
+
+        Marlboro is more than just a brand; it's a lifestyle choice for those who demand the best. With a commitment to quality and a heritage that stands the test of time, Marlboro continues to lead the way in delivering a satisfying, premium experience for smokers worldwide.
+        
+        Whether you're seeking the bold flavor of Marlboro Red, the smooth balance of Marlboro Gold, or the rich taste of Marlboro Black, there's a Marlboro for every taste and every moment. Embrace the iconic style, the unmatched quality, and the enduring spirit of Marlboro.</p>
     </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+    <div class="contact-form-wrapper">
+      <form class="contact-form" action="#">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" maxlength="255" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Send</button>
+        <a href="index.html" class="back-to-home-button">Back to Home</a>
+      </form>
     </div>
-    <div class="form-group">
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" required>
-    </div>
-    <div class="form-group">
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" maxlength="255" required></textarea>
-    </div>
-    <button type="submit" class="submit-button">Send</button>
-    <a href="index.html" class="back-to-home-button">Back to Home</a>
-  </form>
+  </div>
 </body>
+
 </html>
